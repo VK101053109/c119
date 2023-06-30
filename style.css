@@ -1,0 +1,26 @@
+.backround{
+    background-color: greenyellow;
+    color: red;
+}
+#score{
+    float: right;
+    margin-right: 10px;
+}
+#time{
+    float: left;
+    margin-left: 10px;
+}
+@keyframes anim{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+
+}
